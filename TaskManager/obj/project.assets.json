@@ -8581,11 +8581,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Agnieszka\\Desktop\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "D:\\Moje pliki\\github\\Task Manager\\TaskManager\\TaskManager.csproj",
       "projectName": "TaskManager",
-      "projectPath": "C:\\Users\\Agnieszka\\Desktop\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectPath": "D:\\Moje pliki\\github\\Task Manager\\TaskManager\\TaskManager.csproj",
       "packagesPath": "C:\\Users\\Agnieszka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agnieszka\\Desktop\\TaskManager\\TaskManager\\obj\\",
+      "outputPath": "D:\\Moje pliki\\github\\Task Manager\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

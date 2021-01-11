@@ -21,6 +21,11 @@ namespace TaskManager.Repositories
         public IQueryable<TaskModel> GetAllActive()
             => _context.Tasks.Where(x => !x.Done);
 
+
+
+        public IQueryable<TaskModel> GetAllInactive()
+            => _context.Tasks.Where(x => x.Done);
+
         public void Add(TaskModel task)
         {
             _context.Tasks.Add(task);

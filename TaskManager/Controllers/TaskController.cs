@@ -23,6 +23,12 @@ namespace TaskManager.Controllers
             return View(_taskRepository.GetAllActive());
         }
 
+        // GET: Task/CompletedTasks
+        public ActionResult Completed()
+        {
+            return View(_taskRepository.GetAllInactive());
+        }
+
         // GET: Task/Details/5
         public ActionResult Details(int id)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m4gEej1lqGAnZ+2F2VdYhSilFW1wdeuSLKeCorNlUjXASzIgF0FA+/FBW3Ts84sH5JQJg2ca7u0rNvsivUvk4Q==",
+  "dgSpecHash": "2us9F2d4sy+2fyeikj5phDBeho6H2IvFH+riDv6ZpDDQhc72a2C2m4XU0drHrG/xkN/+zDR3Hzjf0LLD4H2RXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Agnieszka\\Desktop\\TaskManager\\TaskManager\\TaskManager.csproj",
+  "projectFilePath": "D:\\Moje pliki\\github\\Task Manager\\TaskManager\\TaskManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Agnieszka\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
