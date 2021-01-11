@@ -16,18 +16,23 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td style="width: 55%">
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td style="width: 45%">
-                @Html.ActionLink("Gotowe", "Done", new { id = item.TaskId }, new { @class = "btn btn-success" })
-                @Html.ActionLink("Edytuj", "Edit", new { id = item.TaskId }, new { @class = "btn btn-info" })
-                @Html.ActionLink("Szczegóły", "Details", new { id = item.TaskId }, new { @class = "btn btn-warning" })
-                @Html.ActionLink("Usuń", "Delete", new { id = item.TaskId }, new { @class = "btn btn-danger" })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="width: 55%">
+                    <i class="fa fa-angle-right"></i>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td style="width: 45%">
+                    @Html.ActionLink("Gotowe", "Done", new { id = item.TaskId }, new { @class = "btn btn-success" })
+                    @Html.ActionLink("Edytuj", "Edit", new { id = item.TaskId }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Szczegóły", "Details", new { id = item.TaskId }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.TaskId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+<div>
+    <a class="btn btn-primary" asp-controller="Task" asp-action="Create">Dodaj zadanie</a>
+</div>

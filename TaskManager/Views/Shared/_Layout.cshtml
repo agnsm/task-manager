@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <h4 class="text-info">Menedżer zadań</h4>
+                <h4 class="base-color">Menedżer zadań</h4>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,6 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Task" asp-action="Completed">Wykonane zadania</a>
                         </li>
                     </ul>
-                    <a class="btn btn-primary" asp-controller="Task" asp-action="Create">Dodaj zadanie</a>
                 </div>
             </div>
         </nav>
@@ -46,6 +45,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://use.fontawesome.com/6e9ef05c92.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
